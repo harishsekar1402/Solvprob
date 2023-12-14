@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800&family=Permanent+Marker&family=Poppins:wght@200;400&display=swap");
+
+
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: "Fira Sans", sans-serif;
+}
+.textwhite{
+  color: white;
+  font-weight: 500;
+}
+.textwhite-title{
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+
+.navbar{
+  height: 60px;
+  background-color: #FF004D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 60px;
+}
+.links{
+  display: flex;
+  gap: 60px;
+  align-items: center;
+
+}
+li{
+  list-style-type: none;
+}
+.display{
+  background-image:linear-gradient(45deg,
+    rgba(0, 0, 0, 0.765),
+    rgba(0, 0, 0, 0.513)),url("/src/assets/homebg.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.home-title{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.home-grid{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.home-grid-content{
+  display: grid;
+  background-color: rgba(207, 204, 204, 0.445);
+  border-radius: 20px;
+  border: 1px solid rgb(121, 121, 121);
+  padding: 30px;
+  grid-gap: 60px;
+  box-shadow: rgb(84, 84, 84) 3px 3px 6px 0px inset, rgba(84, 84, 84, 0.5) -3px -3px 6px 1px inset;
+
+  grid-template-columns: auto auto auto;
+}
+
+.home-grid-img{
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgb(84, 84, 84) 3px 3px 6px 0px inset, rgba(84, 84, 84, 0.5) -3px -3px 6px 1px inset;
+}
+
+.home-grid-img p{
+  text-align: center;
+}
+.home-grid-img img{
+  border-radius: 10px;  
+  width: 200px;
+  height: 125px;
+}
+
+.search-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  height: 100vh;
+  background-image: url(/src/assets/homebg2.jpg);
+  background-repeat:repeat-y;
+
+}
+.search-section h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+.search-area{
+  display: flex ;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 30px;
+}
+
+.search-area select{
+  font-size: 20px;
+}
+.search-area input{
+  width: 300px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.list-con{
+  padding: 10px;
+  border: 2px solid grey;
+  background-color: rgba(121, 121, 121, 0.631);
+  width: 500px;
+  text-align: center;
+}
+
+.input-box{
+  width: 300px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.btn-reg{
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: #FF004D;
+  border: none;
+}
+.btn-reg:hover{
+  background-color: #9b012f;
+}
